@@ -1,0 +1,50 @@
+CREATE TABLE users (
+    user_id SERIAL PRIMARY KEY,
+    username VARCHAR(100) UNIQUE NOT NULL,
+    password TEXT NOT NULL, email VARCHAR(255) UNIQUE NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+)
+
+CREATE TABLE posts (
+    post_id SERIAL PRIMARY KEY,
+    poster_id INT NOT NULL,
+    likes INT DEFAULT 0 CHECK (likes >= 0),
+    upload_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (poster_id) REFERENCES users(user_id) ON DELETE CASCADE
+)
+
+CREATE TABLE post_images (
+    image_id SERIAL PRIMARY KEY,
+    post_id INT NOT NULL,
+    order_index INT NOT NULL,
+    image_data BYTEA NOT NULL,
+    FOREIGN KEY (post_id) REFERENCES posts(post_id) ON DELETE CASCADE
+)
+
+CREATE TABLE post_likes (
+    user_id INT NOT NULL,
+    post_id INT NOT NULL,
+    UNIQUE (user_id, post_id),
+    PRIMARY KEY(user_id, post_id),
+    FOREIGN KEY (post_id) REFERENCES posts(post_id) ON DELETE CASCADE,
+    FOREIGN KEY (user_id) REFERENCES users(user_id) ON DELETE CASCADE
+)
+
+CREATE TABLE user_profile_pics (
+    user_id INT PRIMARY KEY,
+    profile_pic BYTEA NOT NULL,
+    FOREIGN KEY (user_id) REFERENCES users(user_id) ON DELETE CASCADE
+)
+
+CREATE TABLE tags (
+    tag_id SERIAL PRIMARY KEY,
+    tag_name VARCHAR(255) NOT NULL UNIQUE
+)
+
+CREATE TABLE post_tags (
+    post_id INT NOT NULL,
+    tag_id INT NOT NULL,
+    PRIMARY KEY (post_id, tag_id),
+    FOREIGN KEY (post_id) REFERENCES posts(post_id) ON DELETE CASCADE,
+    FOREIGN KEY (tag_id) REFERENCES tags(tag_id) ON DELETE CASCADE
+)
