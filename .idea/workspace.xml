@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a7f7dc4-021d-4bba-bf88-2e9fd6b8b119" name="Changes" comment="V1.0 Initial App Commit, fully working">
+    <list default="true" id="6a7f7dc4-021d-4bba-bf88-2e9fd6b8b119" name="Changes" comment="V1.0 App exe commit">
+      <change afterPath="$PROJECT_DIR$/SQL_TABLE_REFERENCES_V2.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SQL_TABLE_REFERENCE_2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/request_handler.py" beforeDir="false" afterPath="$PROJECT_DIR$/request_handler.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,50 +22,61 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="SQL File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "sctclif"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;sctclif&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/HealthHackers3/HHDb_Manager.git",
-    "accountId": "bf1a8e69-1f8c-4f9b-ad17-b1467b4da9c8"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/HealthHackers3/HHDb_Manager.git&quot;,
+    &quot;accountId&quot;: &quot;bf1a8e69-1f8c-4f9b-ad17-b1467b4da9c8&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2qOZgrmdFUMQK1G7dShWpUaHcGQ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.generate_table.executor": "Run",
-    "Python.generate_ui_element.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.uimain.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.generate_table.executor&quot;: &quot;Run&quot;,
+    &quot;Python.generate_ui_element.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.uimain.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/sctcl/PycharmProjects/HHackManager&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
+    ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\sctcl\PycharmProjects\HHackManager" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\sctcl\PycharmProjects\HHackManager" />
     </key>
@@ -105,7 +122,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1734535696078</updated>
-      <workItem from="1734535697436" duration="31596000" />
+      <workItem from="1734535697436" duration="36305000" />
+      <workItem from="1734631086570" duration="3447000" />
+      <workItem from="1734717833883" duration="5519000" />
+      <workItem from="1734951730450" duration="3112000" />
+      <workItem from="1735340734665" duration="8000" />
+      <workItem from="1736520690342" duration="5050000" />
     </task>
     <task id="LOCAL-00001" summary="V1.0 Initial App Commit, fully working">
       <option name="closed" value="true" />
@@ -115,7 +137,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734615220579</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="V1.0 App exe commit">
+      <option name="closed" value="true" />
+      <created>1734615668422</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1734615668422</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,10 +153,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="V1.0 Initial App Commit, fully working" />
-    <option name="LAST_COMMIT_MESSAGE" value="V1.0 Initial App Commit, fully working" />
+    <MESSAGE value="V1.0 App exe commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="V1.0 App exe commit" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/HHackManager$main.coverage" NAME="main Coverage Results" MODIFIED="1734614792537" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/HHackManager$main.coverage" NAME="main Coverage Results" MODIFIED="1736522805607" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/HHackManager$uimain.coverage" NAME="uimain Coverage Results" MODIFIED="1734607765521" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/HHackManager$generate_ui_element.coverage" NAME="generate_ui_element Coverage Results" MODIFIED="1734607217856" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/HHackManager$generate_table.coverage" NAME="generate_table Coverage Results" MODIFIED="1734544052729" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
